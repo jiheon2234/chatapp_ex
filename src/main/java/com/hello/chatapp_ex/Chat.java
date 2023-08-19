@@ -15,6 +15,7 @@ public class Chat {
     private String msg;
     private String sender; //보내는사람
     private String receiver; //받는사람
+    private Integer roomNum ; //방번호
 
     private LocalDateTime createdAt;
 }
